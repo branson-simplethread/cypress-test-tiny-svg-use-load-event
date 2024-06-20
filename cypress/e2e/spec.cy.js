@@ -4,6 +4,6 @@ describe('page', () => {
     // NOTE: the scenario is located in an external document because
     // "'file:' URLs are treated as unique security origins."
     // and the browser refuses to load the SVG.
-    cy.visit('https://branson-simplethread.github.io/svg-example/icons.html')
+    cy.visit('https://branson-simplethread.github.io/cypress-test-tiny-svg-use-load-event/icons.html')
   })
 })
